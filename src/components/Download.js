@@ -3,12 +3,8 @@ import axios from "axios";
 import download from "downloadjs"; 
 import "../stylesheets/download.css";
 
-const baseURL = process.env.REACT_APP_BASEURL || "http://100.25.31.95:6000";
+const baseURL = "http://100.25.31.95:6000";
 let frontURL = "";
-if (baseURL === "http://100.25.31.95:6000") {
-    frontURL = "http://localhost:3000";
-}
-
 const Download = (props) => {
     useEffect(() => {
         const id = props.match.params.id;

@@ -43,7 +43,7 @@ const About = () => {
                         developer using the links in the footer or by dropping a
                         mail to{" "}
                         <a
-                            href="mailto:tarun989629@@gmail.com"
+                            href="mailto:tarun989629@gmail.com"
                             target="_blank"
                             rel="noreferrer noopener">
                             <span className="file-type">this email-id</span>

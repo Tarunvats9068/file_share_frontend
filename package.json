@@ -43,12 +43,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "fronted": "react-scripts start",
     "eject": "react-scripts eject",
-    "client": "yarn start",
-    "server": "nodemon server-side/server.js",
-    "heroku-postbuild": "npm install && npm run build",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "client": "yarn start"
   },
   "eslintConfig": {
     "extends": [

@@ -6,21 +6,9 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "aws-sdk": "^2.832.0",
     "axios": "^0.21.1",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
     "downloadjs": "^1.4.7",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^9.0.0",
     "materialize-css": "^1.0.0-rc.2",
-    "mongodb": "4.0",
-    "mongoose": "^5.11.11",
-    "multer": "^1.4.2",
-    "multer-s3": "^2.9.0",
-    "nodemon": "^2.0.22",
-    "passport": "^0.6.0",
-    "passport-jwt": "^4.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-dropzone": "^11.2.4",
@@ -47,10 +35,7 @@
     "client": "yarn start"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -67,9 +52,7 @@
   "description": "A MERN stack file-share application",
   "main": "server.js",
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "gh-pages": "^2.2.0"
   },
-  "author": "Rajat M",
-  "license": "ISC",
   "proxy": "http://100.25.31.95:6000/"
 }

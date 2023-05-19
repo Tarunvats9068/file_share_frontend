@@ -41,6 +41,5 @@
   "main": "server.js",
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  },
-  "proxy": "http://100.25.31.95:6000/"
+  }
 }
